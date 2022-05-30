@@ -30,7 +30,7 @@ add this code in index.html
       var global = global || window;
       var Buffer = Buffer || [];
       var process = process || { env: { DEBUG: undefined }, version: [] };
-    </script>
+</script>
 ```
 add this code in main.js / main.ts
 

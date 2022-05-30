@@ -20,3 +20,48 @@
 1. Run `yarn` or `npm install`to install deps
 2. Run `yarn dev` or `npm run dev` to start server
 3. Go to `localhost:3000`
+
+Deploy notes:
+
+add this code in index.html
+
+```html
+<script>
+      var global = global || window;
+      var Buffer = Buffer || [];
+      var process = process || { env: { DEBUG: undefined }, version: [] };
+    </script>
+```
+add this code in main.js / main.ts
+
+```js
+import { Amplify } from "aws-amplify";
+
+Amplify.configure({});
+```
+add this code in vite.config.js
+
+```js
+import resolve from "@rollup/plugin-node-resolve";
+import { visualizer } from "rollup-plugin-visualizer";
+
+export default ({ mode }) => {
+  ...,
+  return defineConfig({
+    plugins: [
+      react(),
+      {
+        ...resolve({
+          preferBuiltins: false,
+          browser: true,
+        }),
+        enforce: "pre",
+        apply: "build",
+      },
+      visualizer(),
+    ],
+    define: {...},
+  });
+};
+```
+

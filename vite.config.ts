@@ -21,10 +21,10 @@ export default ({ mode }) => {
       "process.env.TIME_ZONE_ACCESS_KEY": JSON.stringify(
         process.env.TIME_ZONE_ACCESS_KEY
       ),
-      resolve: {
-        alias: {
-          "./runtimeConfig": "./runtimeConfig.browser",
-        },
+    },
+    resolve: {
+      alias: {
+        "./runtimeConfig": "./runtimeConfig.browser",
       },
     },
   });

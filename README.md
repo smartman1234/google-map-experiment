@@ -64,4 +64,4 @@ export default ({ mode }) => {
   });
 };
 ```
-
+Last, look carefully into the yaml file at amplify, especially in the yaml file of baseDir path

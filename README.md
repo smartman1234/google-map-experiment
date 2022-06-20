@@ -1,16 +1,16 @@
 # Location Project
 
 - related technologies:
-  <a href="https://vitejs.dev/guide/#scaffolding-your-first-vite-project">vite</a> - project starter
-  <a href="https://reactjs.org/">react</a> - UI framework
-  <a href="https://ant.design/">Ant Design</a> - UI component library
-  <a href="https://www.typescriptlang.org/">Typescript</a> - Programming Language
-  React Goolge Maps - Typescript Map library : https://www.npmjs.com/package/@react-google-maps/api
+* <a href="https://vitejs.dev/guide/#scaffolding-your-first-vite-project">vite</a> - project starter
+* <a href="https://reactjs.org/">react</a> - UI framework
+* <a href="https://ant.design/">Ant Design</a> - UI component library
+* <a href="https://www.typescriptlang.org/">Typescript</a> - Programming Language
+* React Goolge Maps - Typescript Map library : https://www.npmjs.com/package/@react-google-maps/api
 
 - related api:
-  <a href="https://developers.google.com/maps/documentation/javascript/get-api-key">Google Api Key</a> - For Map Access
-  <a href="https://positionstack.com/documentation">Position Stack</a> - For address query
-  <a href="https://ipgeolocation.io/">ipgeolocation.io</a> - For Time Zone Api
+* <a href="https://developers.google.com/maps/documentation/javascript/get-api-key">Google Api Key</a> - For Map Access
+* <a href="https://positionstack.com/documentation">Position Stack</a> - For address query
+* <a href="https://ipgeolocation.io/">ipgeolocation.io</a> - For Time Zone Api
 
 ## How to run locally
 
